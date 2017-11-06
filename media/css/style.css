@@ -1,0 +1,119 @@
+body,html{width: 100%; height: 100%; padding:0 ; margin:0;}
+body{
+	background-color: #000;
+	background-image:url('../img/bg.png');
+	background-repeat: repeat;
+	font-family: 'Open Sans';
+	font-size: 14px;
+}
+.logo{width: 150px; height: 50px;}
+.logo img{width: 110px; margin: 10px 20px;}
+.menu{width: 100px; height: 400px; float: right; position: fixed; right: 0;}
+.menu ul{list-style: none; width: 60px; height: 478px; margin: 40px auto; padding: 0; float: right;}
+.menu a{width: 40px; height: 40px; margin: 0px auto; display: block;}
+.menu li{width: 40px; height: 40px; padding-top: 30px;}
+.menu span{width: 100px; height: 80px; display: block;}
+.menu div{width: 100px; height: 60px}
+.menu img{width: 40px; height: 40px;}
+.menu a{opacity: 0.6;}
+.content{width: 800px; height: 220px; margin: 40px auto 0;}
+.content h1{
+			font-family: 'Ruda', sans-serif;
+			font-size: 40px;
+			font-weight: 900;
+		}
+.content h2{
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 25px;
+			font-weight: 200;
+		}
+.content-box{width: 800px; height: 282px; margin:0 auto; background-color: rgba(0,0,0,0.7); border-radius: 15px;}
+.box{width: 226.5px; height: 100px; text-align: center; float: left; padding: 20px; color: #ddd;}
+.box h2{margin-top: 25px; border-left: #ddd solid 2px; line-height: 2.5; color: #ddd; font-weight: 200; margin-left: 13px;}
+.bold{font-weight: 700}
+.text{margin: -11px auto; width: 150px; text-align: center;}
+.contact{width: 800px; height: 186px; margin:0 auto;}
+.contact-box{width: 765px; height: 56px; margin: 32px auto;}
+.cbox{width: 129px; height: 48px; border: 2px #bbb solid; float: left; margin: 0 10px; border-radius: 10px;}
+.ctext{width: 800px;margin: 0 auto;}
+.ctext h2{color: #555;
+	font-weight: 200;
+	border-left: #555 solid 2px;
+	background-color: rgba(255, 255, 255, 0); 
+	margin-top: 50px;
+	line-height: 2.5;
+	padding-left: 7px;
+	margin-left: 27px;}
+.ctext p{width: 245px;text-align: center;margin-left: -44px;}
+.cbox span{margin-top: 10px;}
+.social-icon p{width: 101px; margin: 0 auto; padding-top: 15px;}
+.cbox a {width: 129px;
+	height: 48px;
+	margin: 0 auto; 
+	display: block; 
+	text-decoration: none; 
+	color:#918b8b; 
+	text-align: center; 
+	border-radius: 8px;}
+.cbox a:hover{background-color: #65d6c4;}
+
+.skills{width: 800px; height: 335px; background-color: rgba(0,0,0,0.7); margin: 30px auto; padding-top: 11px; border-radius: 15px;}
+.skills-inside{width: 529px;height:200px;margin: 22px auto 0;}
+.sbox {
+  width: 60px;
+  height: 40px;
+  background-color: #80d4c1;
+  border-radius:10px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+}
+.skills p{padding-left: 4px;float: left;margin: 10px auto; color: #ddd}
+.sbox p { float:right; padding-right: 4px; color: #333}
+.b1{width: 403px;}
+.b2{width: 375px}
+.b3{width: 230px;}
+.b4{width: 461px}
+.sbox{
+ -webkit-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+ -o-transition: 1s ease-in-out;
+-ms-transition: 1s ease-in-out;
+transition: 1s ease-in-out;
+}
+.b1{
+animation-name: onload;
+animation: onload 3s;
+animation-iteration-count: 1, 0, infinite;
+animation-play-state: running, paused;
+}
+.b2{
+animation-name: onload;
+animation: onload 3s;
+animation-iteration-count: 1, 0, infinite;
+animation-play-state: running, paused;
+}
+.b3{
+animation-name: onload;
+animation: onload 3s;
+animation-iteration-count: 1, 0, infinite;
+animation-play-state: running, paused;
+}
+.b4{
+animation-name: onload;
+animation: onload 3s;
+animation-iteration-count: 1, 0, infinite;
+animation-play-state: running, paused;
+}
+@keyframes onload{
+	0% {width: 60px; background-color: #80d4c1;}
+	50% {width: 500px; background-color: #ddd}
+}
+.skills h2{width: 742px; margin: 25px auto; border-left: #ddd solid 2px; line-height: 2.5; color: #ddd; font-weight: 200; padding-left: 7px; margin-left: 30px;}
+
+
+.menu a:hover {
+    opacity: 1;
+}
+.copyright{width: 420px; margin: 24px auto;}
+.copyright p{font-size: 13px; margin-top: 0px; text-decoration: none;}
+.copyright a:hover{color: #80d4c1}
